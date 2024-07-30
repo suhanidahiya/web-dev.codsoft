@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    
+}
+
+body {
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(90deg, #060f19, #ffffff);
+    color: #fff;
+    padding: 1rem 0;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.logo h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 2rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.header-buttons .btn {
+    background: #ff6600;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hero {
+    background: url('https://a.storyblok.com/f/99519/1100x620/637d81544f/blog-hero-consulting-strategies.png/m/2160x1217/filters:format(webp)') no-repeat center center/cover;
+    color: #292720;
+    padding: 5rem 0;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero .btn {
+    margin: 1rem;
+    background: #ff6600;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem 1rem;
+    background: linear-gradient(90deg, #040a11, #e0dcd7);
+    color: #fff;
+}
+
+.service {
+    text-align: center;
+    width: 30%;
+}
+
+.service img {
+    height: 150px;
+    width: 225px;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.about-us {
+    text-align: center;
+    padding: 3rem 1rem;
+}
+
+.about-us img {
+    max-width: 20%;
+    height: auto;
+    margin-top: 1rem;
+    border-radius: 10px;
+}
+
+.our-services {
+    background: linear-gradient(90deg, #000000, #e0dcd7);
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.our-services .service-item {
+    display: inline-block;
+    margin: 1rem;
+    padding: 1rem;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 30%;
+}
+
+.our-services .service-item img {
+    height:170px;
+    width: 270px;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+footer {
+    background: linear-gradient(90deg, #000000, #e0dcd7);
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
